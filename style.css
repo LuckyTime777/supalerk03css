@@ -32,7 +32,7 @@ h3{
     object-fit: contain;
     opacity: 1; /* ทำให้รูปชัด */
 }
-img{
+#bgurl img{
     width: 300px;
     height: auto;
     object-fit: contain;
@@ -49,4 +49,18 @@ img{
 #hover:hover{
     width: 400px;
     background-color: rgb(29, 110, 5);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
