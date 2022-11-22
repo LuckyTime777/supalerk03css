@@ -1,0 +1,52 @@
+h3{
+    font-size: 69px;
+    text-align: right;
+    color: red;
+
+}
+.nav{
+    list-style-type:none ;
+    background-color: brown;
+    text-align: center;
+}
+
+.nav li{
+    display:inline-block;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.bgcolor{
+    background-color: rgb(34, 12, 85);
+}
+#bgurl{
+    /* width: 500px;
+    height: 500px; */
+    /* background-image: url(m.jpg); */
+    background-repeat: no-repeat;
+    opacity: 0.6; /* ทำให้รูปจาง */
+    overflow: hidden;
+    text-align: center; 
+}
+#bgurl:hover{
+    object-fit: contain;
+    opacity: 1; /* ทำให้รูปชัด */
+}
+img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+#hover{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 3s;
+    float: left;
+}
+
+#hover:hover{
+    width: 400px;
+    background-color: rgb(29, 110, 5);
+}
